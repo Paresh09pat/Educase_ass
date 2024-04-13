@@ -1,0 +1,82 @@
+.Whole_Main_div {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+.Sub_div1 {
+    width: 375px;
+    height: 812px;
+    background: #F7F8F9 0% 0% no-repeat padding-box;
+    opacity: 1;
+    display: flex;
+    align-items: flex-end;
+    box-sizing: border-box;
+}
+
+.text_innerdiv {
+    width: 100%;
+    height: auto;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.Welcome_text {
+    font-size: 28px;
+    font-weight: 600;
+    padding-bottom: 10px;
+}
+
+.Lorem_text {
+    width: 70%;
+    font-size: 18px;
+    color: #1D2226;
+}
+
+.btn_div {
+    display: flex;
+    flex-direction: column;
+}
+
+.btn_create,.Already {
+    width: 100%;
+    text-decoration: none;
+    height: 46px;
+    border-radius: 6px;
+    opacity: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.Already {
+    background: #6C25FF4B 0% 0% no-repeat padding-box;
+    color: black;
+}
+.btn_create {
+    background: #6C25FF 0% 0% no-repeat padding-box;
+    color: white;
+    margin-bottom: 10px;
+    margin-top: 30px;
+
+}
+
+@media only screen and (min-width:280px) and (max-width:500px) {
+    .Sub_div1 {
+        width: 100%;
+        min-height: 100vh;
+    }
+
+    .text_innerdiv {
+        width: 95%;
+        margin-inline: auto;
+        height: auto;
+        padding: 20px 20px 50px 20px;
+        box-sizing: border-box;
+    }
+}

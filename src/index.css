@@ -1,0 +1,61 @@
+.form-md { 
+    text-align: center; 
+    margin-top: 20px;
+  }
+  .form-md .form-group {
+
+  }
+  .form-group {
+    margin-bottom: 16px;
+    position: relative;
+  }
+  input {
+    position: relative;
+    display: block;
+    width: 98%;
+    border: 1px solid rgba(0,0,0,.37);
+    border-radius: 4px;
+    background-color: transparent;
+    height: 40px;
+    outline: none !important;
+    font-size: 16px;
+    color: rgba(0,0,0,0.85);
+    transition: all .2s ease-in-out;
+  }
+  
+  label {
+    position: absolute;
+    top: 20px; 
+    left: 12px;
+    text-align: left;
+    display: inline-block;
+    /* padding: 0 4px; */
+    height: 14px;
+    line-height: 14px;
+    font-size: 14px;
+    font-weight: 400;
+    background: #F7F8F9;
+    color: rgba(57, 50, 50, 0.5);
+    margin: 0px auto;
+    cursor: text;
+    transition: all .15s ease-in-out;
+  }
+  input:hover, input:focus { border: 1px solid #000; }
+  
+  input:valid + label, input:focus + label { 
+    top: -6px;
+    color: #6C25FF;
+    font-weight: bold;
+  }
+  .gl-form-asterisk {
+      background-color: inherit;
+      color: #e32b2b;
+      padding: 0;
+      padding-left: 3px;
+     
+  }
+  .gl-form-asterisk:after {
+      content: "*";
+  }
+  
+  
