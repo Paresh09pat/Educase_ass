@@ -18,18 +18,18 @@ function Page3() {
               </div>
 
               <div class="form-group">
-                <input id="form_name2" class="form-control" type="text" placeholder="" required />
+                <input id="form_name2" class="form-control" type="contact" maxLength="10" placeholder="" required />
                 <label for="form_name2">Phone Number<span class="gl-form-asterisk"></span></label>
               </div>
 
               <div class="form-group">
-                <input id="form_name2" class="form-control" type="text" placeholder="" required />
-                <label for="form_name2">Password<span class="gl-form-asterisk"></span></label>
+                <input id="form_name3" class="form-control" type="text" placeholder="" required />
+                <label for="form_name3">Password<span class="gl-form-asterisk"></span></label>
               </div>
 
               <div class="form-group">
-                <input id="form_name2" class="form-control" type="text" placeholder="" required />
-                <label for="form_name2">Company Name<span class="gl-form-asterisk"></span></label>
+                <input id="form_name4" class="form-control" type="text" placeholder="" required />
+                <label for="form_name4">Company Name<span class="gl-form-asterisk"></span></label>
               </div>
 
               <div class="">
@@ -40,9 +40,10 @@ function Page3() {
                 </div>
               </div>
 
-              <button className='log_btn'>Login</button>
+              <button className='log_btn'>Create Account</button>
 
               <NavLink className="link_tran" to="/Page2"><div className="goto_register">Already Registered? Login</div></NavLink>
+              <NavLink className="link_tran" to="/"><div className="goto_register">Go HomePage</div></NavLink>
             </form>
           </div>
         </div>

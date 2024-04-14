@@ -26,6 +26,7 @@ function Page2() {
               <button className='log_btn'>Login</button>
 
               <NavLink className="link_tran"  to="/Page3"><div className="goto_register">Create Account</div></NavLink>
+              <NavLink className="link_tran"  to="/"><div className="goto_register">Go HomePage</div></NavLink>
             </form>
           </div>
         </div>
